@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\henri\\Desktop\\ActeursWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|C:\\Users\\henri\\Desktop\\ActeursWeb\\views\\acteur\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|solutionrelative:views\\acteur\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|c:\\users\\henri\\desktop\\acteursweb\\controllers\\acteurcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|solutionrelative:controllers\\acteurcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|C:\\Users\\henri\\Desktop\\ActeursWeb\\views\\acteur\\ajouter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|solutionrelative:views\\acteur\\ajouter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|C:\\Users\\henri\\Desktop\\ActeursWeb\\views\\acteur\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|solutionrelative:views\\acteur\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|C:\\Users\\henri\\Desktop\\ActeursWeb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|C:\\Users\\henri\\Desktop\\ActeursWeb\\models\\acteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F18C3F9-F922-4608-9806-A9E0020E332F}|ActeursWeb.csproj|solutionrelative:models\\acteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stats.cshtml",
+              "DocumentMoniker": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Acteur\\Stats.cshtml",
+              "RelativeDocumentMoniker": "Views\\Acteur\\Stats.cshtml",
+              "ToolTip": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Acteur\\Stats.cshtml",
+              "RelativeToolTip": "Views\\Acteur\\Stats.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T15:21:30.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Acteur\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Acteur\\Index.cshtml",
+              "ToolTip": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Acteur\\Index.cshtml",
+              "RelativeToolTip": "Views\\Acteur\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T15:19:40.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActeurControllers.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Controllers\\ActeurControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActeurControllers.cs",
+              "ToolTip": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Controllers\\ActeurControllers.cs",
+              "RelativeToolTip": "Controllers\\ActeurControllers.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAcwFwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T15:13:31.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ajouter.cshtml",
+              "DocumentMoniker": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Acteur\\Ajouter.cshtml",
+              "RelativeDocumentMoniker": "Views\\Acteur\\Ajouter.cshtml",
+              "ToolTip": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Acteur\\Ajouter.cshtml",
+              "RelativeToolTip": "Views\\Acteur\\Ajouter.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T15:50:33.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T15:40:42.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Acteur.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Models\\Acteur.cs",
+              "RelativeDocumentMoniker": "Models\\Acteur.cs",
+              "ToolTip": "C:\\Users\\henri\\Desktop\\ActeursWeb\\Models\\Acteur.cs",
+              "RelativeToolTip": "Models\\Acteur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T15:12:35.67Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

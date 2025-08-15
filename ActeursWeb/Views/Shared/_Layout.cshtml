@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Accueil - ActeursApp</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #222;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+            .navbar .brand {
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                text-decoration: none;
+            }
+
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                display: inline-block;
+            }
+
+                .navbar a:hover {
+                    background-color: #444;
+                }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .acteur-card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a class="brand" href="/Acteur/Index">ActeursApp</a>
+        <div class="nav-links">
+            <a href="/Acteur/Index">Accueil</a>
+            <a href="/Acteur/Ajouter">Ajout</a>
+            <a href="/Acteur/Stats">Statistiques</a>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Acteur.app</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

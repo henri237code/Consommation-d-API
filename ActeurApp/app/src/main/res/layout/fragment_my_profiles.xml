@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fillViewport="true"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical" android:padding="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvInfo"
+                android:text="Profils: 0/2"
+                android:textStyle="bold"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etName"
+                android:hint="Nom"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etBio"
+                android:hint="Bio"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etPicture"
+                android:hint="Image (URL)"
+                android:inputType="textUri"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:text="Ajouter"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"/>
+
+            <View android:layout_width="match_parent" android:layout_height="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

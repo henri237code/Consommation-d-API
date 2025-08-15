@@ -1,0 +1,99 @@
+﻿@model List<ActeursWeb.Models.Acteur>
+@{
+    ViewBag.Title = "Accueil";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Accueil - ActeursApp</title>
+
+    <style>
+        .acteur-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 15px;
+            width: 350px;
+        }
+
+        .edit-form {
+            display: none;
+            margin-top: 10px;
+            border-top: 1px dashed #aaa;
+            padding-top: 10px;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2 style="margin-left: 15px;">Liste des acteurs</h2>
+
+        @foreach (var acteur in Model)
+        {
+            <div class="acteur-card" id="acteur-@acteur.id">
+                <img src="@acteur.picture" width="100" />
+                <h3>@acteur.name</h3>
+                <p>@acteur.bio</p>
+
+                <button onclick="deleteActeur(@acteur.id)">Supprimer</button>
+                <button onclick="toggleEdit(@acteur.id)">Modifier</button>
+
+                <div class="edit-form" id="edit-@acteur.id">
+                    <input type="text" id="name-@acteur.id" value="@acteur.name" /><br />
+                    <input type="text" id="bio-@acteur.id" value="@acteur.bio" /><br />
+                    <input type="text" id="picture-@acteur.id" value="@acteur.picture" /><br />
+                    <button onclick="updateActeur(@acteur.id)">Enregistrer</button>
+                </div>
+            </div>
+        }
+    </div>
+
+    <script>
+        function toggleEdit(id) {
+            $("#edit-" + id).toggle();
+        }
+
+        function deleteActeur(id) {
+            $.ajax({
+                url: '/Acteur/Supprimer/' + id,
+                type: 'POST',
+                success: function () {
+                    $("#acteur-" + id).remove();
+                },
+                error: function () {
+                    alert("Erreur lors de la suppression");
+                }
+            });
+        }
+
+        function updateActeur(id) {
+            const name = $("#name-" + id).val();
+            const bio = $("#bio-" + id).val();
+            const picture = $("#picture-" + id).val();
+
+            $.ajax({
+                url: '/Acteur/Modifier',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    id: id,
+                    name: name,
+                    bio: bio,
+                    picture: picture
+                }),
+                success: function () {
+                    location.reload(); // recharge la page pour afficher les nouvelles données
+                },
+                error: function () {
+                    alert("Erreur lors de la modification");
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

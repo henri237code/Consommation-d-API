@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain>10.0.2.2</domain>   <!-- émulateur -->
+        <!-- ou <domain>192.168.1.23</domain> pour un téléphone physique -->
+    </domain-config>
+</network-security-config>
